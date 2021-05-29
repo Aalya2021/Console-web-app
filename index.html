@@ -1,43 +1,32 @@
 <html>
     <head>
-        <title>C-79</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="main.js"></script>
+        <title>Console web app</title>
     </head>
     <body>
-<center>
-<h3 style="margin-top: 20px; margin-bottom: 20px;">
-List of the students in my class
+        <h3>
+        <center>
+        <h4>Console web app</h4>
+        <p>Visual Studio Code is a freeware source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. This is the link to get started- https://code.visualstudio.com/download</p>
+        <p>A console is the combination of a monitor and keyboard. It is a rudimentary interface in which the monitor provides the output and the keyboard is used for input. While any computer with a monitor and keyboard may be considered a console, the term most often refers to a system used to control one or more servers.</p>
+    </center>
 </h3>
-<div>
+        <script>
+            console.log("My first console project!!😁");
+            var one= "Aalya";
+        var two= "Gupta";
+        var three= one.concat(two);
+        console.log(three);
+        var y = 6;
+        var z = 2;
+        var add = y + z;
+        var subtract = y - z;
+        var multiply = y * z;
+        var divide = y / z;
+        console.log(add);
+        console.log(subtract);
+        console.log(multiply);
+        console.log(divide);
+        </script>
 
-<span>1</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_1">
-<br>
-
-<span>2</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_2">
-<br>
-
-<span>3</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_3">
-<br>
-
-<span>4</span>
-<input type="text" placeholder="Name of the Student" id="name_of_the_student_4">
-<br>
-
-</div>
-<button onclick="submit()" id="submit_button">
-Submit
-</button>
-<div id="display_name" style="font-weight: bold;">
-
-</div>  
-
-<button onclick="sorting()" id="sort_button">
-    Sort
-    </button>
-</center>
-</body>
+    </body>
 </html>
